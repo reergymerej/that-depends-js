@@ -4,10 +4,14 @@
   "main": "index.js",
   "author": "Jeremy Greer <jeremy.greer.atl@gmail.com>",
   "scripts": {
-    "test": "jest --bail"
+    "build": "./node_modules/.bin/babel src --out-dir bin --ignore test.js",
+    "test": "jest --bail",
+    "prepublishOnly": "yarn build"
   },
   "license": "MIT",
   "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
     "jest": "^22.4.3"
   }
 }
