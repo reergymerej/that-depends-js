@@ -1,5 +1,7 @@
 # that-depends-js
 
+[![Build Status](https://travis-ci.org/reergymerej/that-depends-js.svg?branch=master)](https://travis-ci.org/reergymerej/that-depends-js)
+
 Reads in JS, returns the imported/required file paths.
 
 ## Usage
