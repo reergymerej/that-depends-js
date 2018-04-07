@@ -1,7 +1,7 @@
 {
   "name": "that-depends-js",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "bin/index.js",
   "author": "Jeremy Greer <jeremy.greer.atl@gmail.com>",
   "scripts": {
     "build": "./node_modules/.bin/babel src --out-dir bin --ignore test.js",
