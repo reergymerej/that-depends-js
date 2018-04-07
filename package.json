@@ -1,0 +1,13 @@
+{
+  "name": "that-depends-js",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Jeremy Greer <jeremy.greer.atl@gmail.com>",
+  "scripts": {
+    "test": "jest --bail"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "jest": "^22.4.3"
+  }
+}
